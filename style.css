@@ -117,3 +117,71 @@ img{
     margin-top: 15px;
     color: darkslategrey;
 }
+.positive_mindset_container{
+    height: 300px;
+    background-image: url(images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0));
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    background-blend-mode:overlay;  
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.mindset_description{
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.mindset_description h1{
+    color: antiquewhite;
+}
+.mindset_description button{
+    background-color: crimson;
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+    width: 10%;
+}
+/* footer style start */
+.foot{
+    background-color: black;
+    display: flex;
+    height: 60vh;
+    margin-top: 100px;
+    /* padding: 200px; */
+    justify-content: space-between;
+}
+
+.future_description{
+    color: antiquewhite;
+    margin: 100px 100px;
+}
+.future_description h1{
+    font-size: 40px;
+    
+}
+.future_description p{
+    margin: 10px 0;
+}
+.foot_icon_handle{
+    display: flex;
+    gap: 20px;
+}
+.subscribe{
+    color: antiquewhite;
+    margin: 100px 100px;
+}
+.subscribe h3{
+    font-size: 40px;
+}
+.subscribe input{
+    height: 30px;
+    margin: 10px 0;
+}
+.subscribe button{
+    height: 30px;
+    width: 50%;
+    font-weight: bold;
+}
+
+
