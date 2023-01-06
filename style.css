@@ -67,3 +67,53 @@ img{
     margin-right: 5px;
 }
 /* previous year section end  */
+
+/* next_year_container style start */
+.next_year_container{
+    height: 70vh;
+    background-image: url(images/belon.jpg);
+    background-position:center;
+    background-size: cover;
+    
+}
+.next_year_description{
+    padding-top: 150px;
+    padding-left: 200px;
+    color: antiquewhite;
+}
+.next_year_container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.next_year_description ul{
+    list-style: none;
+    font-size: 20px;
+}
+/* end of next year goal style */
+
+/* start for my goal style */
+.my_plan_title{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.my_plan_description{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.my_plan_single img{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.my_plan_single h3{
+    font-weight: bold;
+}
+.my_plan_single p{
+    margin-top: 15px;
+    color: darkslategrey;
+}
