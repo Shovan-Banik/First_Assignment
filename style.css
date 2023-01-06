@@ -13,7 +13,7 @@ header{
 }
 .first_banner{
     text-align: right;
-    margin-right: 150px;
+    margin-right: 130px;
     padding-top: 200px;
     color: bisque;
     
@@ -26,14 +26,18 @@ header{
 .first_banner_p{
     color: rgb(204, 231, 47);
     margin-bottom: 10px;
+    font-size: 18px;
 }
 .first_banner_btn{
     background-color: rgb(255, 254, 254);
     color: rgb(4, 135, 250);
     border: none;
-    height: 30px;
+    height: 40px;
     width: 10%;
     font-weight: bold;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 17px;
 }
 /* header banner end */
 
@@ -60,9 +64,14 @@ img{
 .previous_year_p{
     margin-bottom: 20px;
     color: darkslategray;
+    font-size: 18px;
 }
 .previous_year_ul{
     list-style: none;
+}
+.previous_year_ul li{
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 .previous_year_ul li i{
     color: chartreuse;
@@ -111,28 +120,30 @@ img{
 
 }
 .my_plan_single img{
-    height: 80px;
+    height: 100px;
     width: 100%;
     margin-bottom: 15px;
     
 }
-.my_plan_single h3{
-    font-weight: bold;
-}
+
 .my_plan_single p{
-    margin-top: 15px;
+    margin-top: 10px;
     color: darkslategrey;
+    font-size: 18px;
 }
 /* end my plan */
 .positive_mindset_container{
     height: 300px;
-    background-image: url(images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0));
+    background-image: url(images/watch.png),linear-gradient(90deg, #0176d6 0%, rgba(0, 95, 172, 0));
     background-repeat:no-repeat;
     background-position: center;
     margin-top: 100px;
-    background-blend-mode:overlay;  
+    background-blend-mode:multiply;
     margin-left: 200px;
     margin-right: 200px;
+    
+     
+    
 
 }
 .mindset_description{
@@ -141,19 +152,23 @@ img{
 }
 .mindset_description h1{
     color: antiquewhite;
+    font-size: 40px;
 }
 .mindset_description button{
     background-color: crimson;
     border: none;
     margin-top: 20px;
-    height: 30px;
-    width: 10%;
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 16px;
 }
 /* footer style start */
 .foot{
     background-color: black;
     display: flex;
-    height: 60vh;
+    height: 70vh;
     margin-top: 100px;
     /* padding: 200px; */
     justify-content: space-between;
@@ -168,11 +183,16 @@ img{
     
 }
 .future_description p{
-    margin: 10px 0;
+    margin: 20px 0;
+    font-size: 20px;
 }
 .foot_icon_handle{
     display: flex;
     gap: 20px;
+    
+}
+.foot_icon_handle img{
+    margin-top: 10px;
 }
 .subscribe{
     color: antiquewhite;
@@ -180,17 +200,23 @@ img{
 }
 .subscribe h3{
     font-size: 40px;
+
 }
 .subscribe input{
     height: 30px;
-    margin: 10px 0;
+    margin: 20px 0;
+    background-color: black;
+    border: 1px solid gray;
 }
 .subscribe button{
-    height: 30px;
-    width: 50%;
+    height: 40px;
+    width: 60%;
     font-weight: bold;
     background-color: hsl(207, 94%, 50%);
     color: aliceblue;
+    border-radius: 5px;
+    padding: 2px;
+    
 }
 
 
