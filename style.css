@@ -8,6 +8,8 @@ header{
     background-image: url(images/banner/banner3.png);
     height: 120vh;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .first_banner{
     text-align: right;
