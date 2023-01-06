@@ -182,6 +182,8 @@ img{
     height: 30px;
     width: 50%;
     font-weight: bold;
+    background-color: hsl(207, 94%, 50%);
+    color: aliceblue;
 }
 
 
