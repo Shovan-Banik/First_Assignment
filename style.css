@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header banner styling start */
+header{
+    background-image: url(images/banner/banner3.png);
+    height: 80vh;
+    width: 100%;
+}
+.first_banner{
+    text-align: right;
+    margin-right: 200px;
+    padding-top: 150px;
+    color: bisque;
+    
+}
+.first_banner_h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+.first_banner_p{
+    color: rgb(204, 231, 47);
+    margin-bottom: 10px;
+}
+.first_banner_btn{
+    background-color: rgb(255, 254, 254);
+    color: rgb(4, 135, 250);
+    border: none;
+    height: 30px;
+    width: 10%;
+    font-weight: bold;
+}
+/* header banner end */
