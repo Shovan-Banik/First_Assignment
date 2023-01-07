@@ -138,7 +138,7 @@ img{
     background-repeat:no-repeat;
     background-position: center;
     margin-top: 100px;
-    background-blend-mode:multiply;
+    background-blend-mode:overlay;
     margin-left: 200px;
     margin-right: 200px;
     
@@ -159,7 +159,7 @@ img{
     border: none;
     margin-top: 20px;
     height: 40px;
-    width: 10%;
+    width: 15%;
     border-radius: 5px;
     color: antiquewhite;
     font-size: 16px;
